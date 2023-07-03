@@ -1,0 +1,87 @@
+Q1.What is the difference between Compiler and Interpreter?
+
+Ans.
+Compiler :- Compiler is a software, which takes source code or High Level Language(HLL) code  as input and convert/generates it into the MLL(Machine Level Language). It is converting 
+		high level language code to machine level language in one go(means it is scanning all code at once).
+
+Interpreter :- It is also a softwate, which take source code or High Level Language(HLL) code as input and convert it into the MLL(Machine Level Language). It is converting 
+		   high level language code to maching level code in line by line.
+
+
+Q2.What is the difference between JDK, JRE, and JVM?
+
+Ans.
+i).  JDK (Java Development Kit) is a software development environment that includes tools necessary for developing and running Java applications.
+ii). JRE (Java Runtime Environment) is a software package that provides the necessary runtime environment for executing Java applications, but does not include development tools.
+     Development tools like editors, compilers, debuggers, profilers, and build systems.
+iii).JVM (Java Virtual Machine) is an abstract machine that executes Java bytecode, allowing Java applications to run on different platforms without the need for recompilation.
+
+
+Q3.How many types of memory areas are allocated by JVM?
+
+Ans.
+JVM(Java Virtual Machine) allocates memory in several areas to manage the execution of java applications.
+
+i).   Heap Memory: It is the runtime data area where objects are allocated and deallocated dynamically.
+ii).  Stack Memory: It is used for storing local variables and method call information. Each thread in java has it's own stack memory.
+iii). Method Area: It stores class-level information, including method bytecode, constant pool, field and method data, and static variables.
+iv).  PC Registers: Each thread has it's own Program Counter(PC) Register, which holds the address of the current instruction being executed.
+ 
+
+Q4.What is JIT compiler?
+
+Ans.
+JIT(Just-in-Time) compiler is a component of the JVM(Java Virtual Machine) that dynamically compiles bytecode into native machine code during runtime. It improves the performance of java
+application by analyzing and optimizing frequently executed code segments, allowing for faster execution. The JIT compiler employs techniques such as method inline, dead code elimination,
+add loop unrolling to optimize the translated code.
+
+
+Q5.What are the various access specifiers in Java?
+
+Ans. 
+in java, there are four access specifiers:
+i).  Public: Accessible to all classes and packages.
+ii). Protected: Accessible within the same package and subclasses(even if they are in different packages).
+iii).Private Accessible only within the same class.
+iv). Default(no specifier): Accessible within the same package.
+
+
+Q6.What is a compiler in Java?
+
+Ans.
+A compiler in java is a softwate tool that translate java source code written by developers into bytecode, which can be understood and executed by the JVM. It also checks the syntax 
+of the code. The code is correct or not which is written by the developer.
+
+
+Q7.Explain the types of variables in Java?
+
+Ans. 
+In java, there are three type of variables:
+i).  Local variables: These variables are declared within a method or block and these variables scope are limited to that particular area. 
+ii). Instance variables: These variables are Associated with an instance of a class and these variables scope are instance-level.
+iii).Static variables: These variables are belongs to the class itself rather than instance and they have class-level scope.
+
+
+Q8.What are the Datatypes in Java?  
+
+Ans. 
+In java, there are several datatypes:
+i). Primitive datatypes: byte, short, int, long, float, double, boolean, and char.
+ii).Reference datatypes(User-defined): classes, interfaces, arrays, and enumerations.
+
+
+Q9.What are the identifiers in java?
+
+Ans. 
+In java, identifiers are names used to identify classes, variables, methods, and other program elements. They are user-defined and follow certain naming conventions, such as Starting 
+with a letter, being case-sensitive, and not using reserved keywords.
+
+
+Q10.Explain the architecture of JVM.
+
+Ans.
+The architecture of JVM consists of the three main components:
+i).  Class Loader Subsystem: It is responsible for loading class file into memory.
+ii). Runtime Data Area: It is divided into various memory regions like the method area, heap, stack, and PC registers, to store data and execute instructions.
+iii).Execution Engine: It is responsible for interprets bytecode and dynamically compiles frequently executed code segments using the JIT(Just-In-Time) compiler for 
+     optimized performance.	 
