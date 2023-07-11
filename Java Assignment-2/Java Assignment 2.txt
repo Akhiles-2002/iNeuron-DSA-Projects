@@ -206,6 +206,6 @@ Ans:
 Q10. Where exactly is the string constant pool located in the memory?
 
 Ans: The string constant pool is located in the heap memory area of the Java Virtual Machine (JVM). 
-It is a special area within the heap where string literals and interned strings are stored. The string 
+It is a special area within the heap where string literals(Constant, Values) and interned(Reused, Shared, Pooled) strings are stored. The string 
 constant pool is a shared pool of strings used to optimize memory utilization by reusing common string 
 values across multiple references.
